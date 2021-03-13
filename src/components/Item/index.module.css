@@ -1,0 +1,16 @@
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  line-height: 24px;
+}
+.title{
+  flex: 1;
+}
+.item button{
+  display: none;
+}
+.item .showButton{
+  display: inline-block;
+}
